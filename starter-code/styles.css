@@ -1,0 +1,297 @@
+
+/* style Css */
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,500,600,700,800,900");
+* {
+  font-family: Poppins, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 3em;
+}
+
+h3{
+  font-weight: 400;
+  font-size: 2.8em;
+  color: #fff;
+  text-align: left;
+}
+
+h4{
+  font-weight: 600;
+  font-size: 1.4em;
+  color: rgb(83, 88, 98);
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 40px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.col {
+  float: left;
+}
+.col-3 { 
+  width: 30%;
+} /* 30% | 30% | 30% */
+.col-2 {
+  width: 45%;
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+.col-middle { 
+  margin-left: 5%;
+  margin-right: 5%;
+
+} /* 5% | content | 5% */
+
+.clearfix { 
+  clear: both; 
+}
+
+.top-left {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header { 
+  background-color: rgb(32, 101, 136);
+  background-image: url("images/city-scape.svg");
+  background-position: 0,0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 10px;
+  position: relative;
+  width: 100%;
+}
+.search-logo {
+  display: inline-block;
+  padding: 0;
+  margin: 0 0 0 20px;
+  width: 95%;
+}
+
+.search-logo-img {
+  width: 150px;
+  float: left;
+}
+
+.search-form {
+  display: inline-block;
+  width: 75%;
+}
+
+.search-box {
+  background-color: rgb(31, 82, 111);
+  height: 50px;
+  margin: 0 0 0 20px;
+  width: 90%;
+  padding-left: 15px;
+  font-size: 0.8em;
+  border: 2px solid rgb(28, 101, 146);
+  color:rgb(124, 160, 182)
+
+}
+.search-button {
+  border: 2px solid rgb(28, 101, 146);
+  background-color: rgb(31, 82, 111);
+  height: 55px;
+  margin: 0 0 0 0;
+  width: 50px;
+}
+
+.search-logo ul {
+  text-decoration: none;
+  float: right;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.search-logo li {
+  float: left;
+  list-style-type: none;
+  
+}
+
+.search-bear-img {
+  width: 30px;
+  margin: 0 0 0 10px;
+}
+.header-text {
+  color: white;
+  font-size: 1.2em;
+  position: absolute;
+  left: 15%;
+  top: 200px;
+  width: 800px; 
+}
+
+.header-text p {
+  margin: 40px 0 0 0;
+  line-height : 25px;
+}
+
+.header-text button {
+  text-decoration:none;
+  font-size: 1.2em;
+  color:#fff;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:30px;
+  padding-right:30px;
+  background-color:rgb(240, 146, 51);
+  border-radius:35px;
+  border: none;
+  margin: 50px 0 0 0;
+}
+
+#colaborations {
+  display: inline-block;
+  height: auto;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(39, 53, 71);
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.cola-img {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.cola-text {
+  float: right;
+  width: 40%;
+  color: #fff;
+  margin: 0px 200px 0 auto;
+  text-align: left;
+}
+.cola-text ul {
+  margin: 40px 0 0 50px;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding: 0 0 20px 0;
+}
+
+.cola-text button {
+  text-decoration:none;
+  font-size: 1.2em;
+  color:#fff;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:30px;
+  padding-right:30px;
+  background-color:rgb(203, 56, 55);
+  border-radius:35px;
+  border: none;
+  margin: 0 0 20px 0;
+}
+.cola-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#whatisnpm{
+  display: inline-block;
+  height: 500px;
+  background-image: url(images/forklift.svg);
+  background-position: 0,0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+  position: relative;
+  width: 100%;
+  background-color:rgb(203, 56, 55);
+}
+.what-text{
+  position: absolute;
+  top: 150px;
+  left: 15%;
+  width: 500px;
+  color: white;
+  line-height : 25px;
+}
+
+.what-text p {
+  font-weight: 400;
+  font-size: 1.2em;
+  margin: 30px 0 0 0;
+}
+
+#whatisnpm button {
+  text-decoration:none;
+  font-size: 1.2em;
+  color:#fff;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:30px;
+  padding-right:30px;
+  background-color:rgb(49, 68, 88);
+  border-radius:35px;
+  border: none;
+  margin: 40px 0 20px 0;
+}
+
+#canyou{
+  color:black;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 10%
+  
+}
+#canyou h3{
+  color:rgb(83, 88, 98);
+  font-weight: 600;
+  font-size: 1.7em;
+  text-align: center;
+  margin: 75px 0 25px 0;
+}
+
+.canyou-img {
+  width: 40%;
+  margin: 30px 0 0 0;
+}
+
+.canyou-p {
+  font-size: 1.4em;
+  color: rgb(83, 88, 98)
+} 
+article p {
+  font-size: 1.3em;
+  color: rgb(135, 145, 156);
+}
+
+#canyou a {
+  color:rgb(208, 74, 73);
+  text-decoration: none;
+}
