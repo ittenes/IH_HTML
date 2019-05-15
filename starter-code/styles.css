@@ -24,6 +24,18 @@ h4{
   font-size: 1.4em;
   color: rgb(83, 88, 98);
 }
+button {
+  text-decoration:none;
+  font-size: 1.2em;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:30px;
+  padding-right:30px;
+  border-radius:35px;
+  border: none;
+  margin: 40px 0 20px 0;
+}
+}
 
 nav {
   background-color: #C12127;
@@ -35,6 +47,15 @@ nav {
 nav a {
   color: rgba(255,255,255,0.8);
   text-decoration: none;
+}
+
+section {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 .col {
   float: left;
@@ -156,28 +177,13 @@ header {
 }
 
 .header-text button {
-  text-decoration:none;
-  font-size: 1.2em;
   color:#fff;
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-left:30px;
-  padding-right:30px;
   background-color:rgb(240, 146, 51);
-  border-radius:35px;
-  border: none;
-  margin: 50px 0 0 0;
 }
 
 #colaborations {
-  display: inline-block;
-  height: auto;
   text-align: center;
-  width: 100%;
   background-color: rgb(39, 53, 71);
-  margin: 0 auto;
-  padding-top: 120px;
-  padding-bottom: 60px;
 }
 
 .cola-img {
@@ -201,17 +207,8 @@ header {
 }
 
 .cola-text button {
-  text-decoration:none;
-  font-size: 1.2em;
   color:#fff;
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-left:30px;
-  padding-right:30px;
   background-color:rgb(203, 56, 55);
-  border-radius:35px;
-  border: none;
-  margin: 0 0 20px 0;
 }
 .cola-text a {
   color: #fff;
@@ -219,15 +216,12 @@ header {
 }
 
 #whatisnpm{
-  display: inline-block;
   height: 500px;
   background-image: url(images/forklift.svg);
   background-position: 0,0;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 10px;
   position: relative;
-  width: 100%;
   background-color:rgb(203, 56, 55);
 }
 .what-text{
@@ -246,24 +240,15 @@ header {
 }
 
 #whatisnpm button {
-  text-decoration:none;
-  font-size: 1.2em;
   color:#fff;
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-left:30px;
-  padding-right:30px;
   background-color:rgb(49, 68, 88);
-  border-radius:35px;
-  border: none;
-  margin: 40px 0 20px 0;
 }
 
 #canyou{
   color:black;
   text-align: center;
-  display: inline-block;
   float: left;
+  width:70%;
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 10%
